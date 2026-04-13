@@ -86,6 +86,7 @@ git clone -b md https://github.com/lijigang/ljg-skills.git ~/.claude/plugins/ljg
 | **ljg-word** | 单词精通 — 深度拆解一个英语单词的核心语义和顿悟时刻 |
 | **ljg-writes** | 写作引擎 — 带着一个观点出发，在写的过程中把它想透 |
 | **ljg-invest** | 投资分析 — 核心判断项目是否是一台「秩序创造机器」 |
+| **ljg-read** | 伴读 — 陪你读任何文本，英文三层翻译（信达雅）+ 结构标注 + 深度提问 + 跨领域旁逸 |
 | **ljg-relationship** | 关系分析 — 五层结构诊断 + 精神分析，通过对话引导帮用户"看见"关系真实结构 |
 | **ljg-roundtable** | 圆桌讨论 — 求真导向的结构化多人辩证对话，每轮生成 ASCII 思考框架图 |
 | **ljg-travel** | 旅行研究 — 输入城市名，生成深度文化研究文档 + 便携卡片（PNG） |
