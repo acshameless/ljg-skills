@@ -8,7 +8,7 @@
 
 ## 步骤 1：读取模板
 
-Read `~/.claude/skills/ljg-card/assets/comic_template.html`
+Read `assets/comic_template.html`
 
 模板提供：
 - 字体加载（Noto Serif SC + DM Sans）
@@ -372,12 +372,12 @@ Read `~/.claude/skills/ljg-card/assets/comic_template.html`
 
 单张：
 ```bash
-node ~/.claude/skills/ljg-card/assets/capture.js /tmp/ljg_cast_comic_{name}.html ~/Downloads/{name}.png 1080 800 fullpage
+node assets/capture.js /tmp/ljg_cast_comic_{name}.html ~/Downloads/{name}.png 1080 800 fullpage
 ```
 
 多张：逐张截图，文件名带序号
 ```bash
-node ~/.claude/skills/ljg-card/assets/capture.js /tmp/ljg_cast_comic_{name}_01.html ~/Downloads/{name}_01.png 1080 800 fullpage
-node ~/.claude/skills/ljg-card/assets/capture.js /tmp/ljg_cast_comic_{name}_02.html ~/Downloads/{name}_02.png 1080 800 fullpage
+node assets/capture.js /tmp/ljg_cast_comic_{name}_01.html ~/Downloads/{name}_01.png 1080 800 fullpage
+node assets/capture.js /tmp/ljg_cast_comic_{name}_02.html ~/Downloads/{name}_02.png 1080 800 fullpage
 # ... 逐张执行
 ```

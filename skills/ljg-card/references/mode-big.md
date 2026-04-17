@@ -15,7 +15,7 @@
 
 ## 步骤 1：读取模板
 
-Read `~/.claude/skills/ljg-card/assets/big_template.html`
+Read `assets/big_template.html`
 
 模板提供：
 - 1080x1440 固定画布（小红书 3:4 HD 规范）
@@ -141,7 +141,7 @@ Read `~/.claude/skills/ljg-card/assets/big_template.html`
 ## 步骤 5：截图
 
 ```bash
-node ~/.claude/skills/ljg-card/assets/capture.js \
+node assets/capture.js \
   /tmp/ljg_cast_big_{name}.html \
   ~/Downloads/{name}.png \
   1080 1440
