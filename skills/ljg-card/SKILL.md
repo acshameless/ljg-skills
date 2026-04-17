@@ -40,13 +40,13 @@ version: "1.8.0"
 ### 截图工具
 
 ```bash
-node ~/.claude/skills/ljg-card/assets/capture.js <html> <png> <width> <height> [fullpage]
+node assets/capture.js <html> <png> <width> <height> [fullpage]
 ```
 
-依赖：`~/.claude/skills/ljg-card/node_modules/` 中的 playwright。如报错：
+从 skill 根目录运行。依赖 skill 根目录下的 `node_modules/` 中的 playwright。如报错：
 
 ```bash
-cd ~/.claude/skills/ljg-card && npm install playwright && npx playwright install chromium
+npm install playwright && npx playwright install chromium
 ```
 
 ### Footer
